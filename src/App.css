@@ -1,0 +1,40 @@
+#root {
+  --Very-dark-cyan: hsl(183, 100%, 15%);
+  --Dark-grayish-cyan: hsl(186, 14%, 43%);
+  --Grayish-cyan: hsl(184, 14%, 56%);
+  --Light-grayish-cyan: hsl(185, 41%, 84%);
+  --Very-light-grayish-cyan: hsl(189, 41%, 97%);
+  --White: hsl(0, 0%, 100%);
+}
+
+.body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--Grayish-cyan);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.main-container {
+  width: 55vw;
+  height: 60vh;
+  background-color: var(--Light-grayish-cyan);
+  display: grid;
+  place-items: center;
+  border-radius: 10px;
+}
+
+.main {
+  padding: 0;
+  margin: 0;
+  width: 50vw;
+  height: 50vh;
+  background-color: var(--Very-light-grayish-cyan);
+  border-radius: 10px;
+  margin: auto;
+}

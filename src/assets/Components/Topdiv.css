@@ -1,0 +1,43 @@
+#root {
+  --Very-dark-cyan: hsl(183, 100%, 15%);
+  --Dark-grayish-cyan: hsl(186, 14%, 43%);
+  --Grayish-cyan: hsl(184, 14%, 56%);
+  --Light-grayish-cyan: hsl(185, 41%, 84%);
+  --Very-light-grayish-cyan: hsl(189, 41%, 97%);
+  --White: hsl(0, 0%, 100%);
+}
+
+.top {
+  height: 25vh;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px 10px 20px;
+}
+
+.topelements {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.bottomelements {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.text h4 {
+  font-size: 0.9rem;
+  font-weight: 900;
+}
+
+.text p {
+  font-size: 0.7rem;
+  color: var(--Very-dark-cyan);
+}
+
+.dollars1 p {
+  color: var(--Grayish-cyan);
+  font-size: 1.5rem;
+  font-weight: 900;
+}

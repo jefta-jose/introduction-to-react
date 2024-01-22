@@ -1,0 +1,7 @@
+.rightdiv {
+  background-color: var(--Very-dark-cyan);
+  flex: 1;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}

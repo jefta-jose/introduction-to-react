@@ -1,0 +1,13 @@
+.NewClassName {
+  height: 25vh;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+#NewButtonId {
+  width: 15vw;
+  cursor: pointer;
+  background-color: var(--);
+}
