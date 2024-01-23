@@ -1,15 +1,15 @@
-import './Rightgrid.css';
+import "./Rightgrid.css";
 
-import Topdiv from './Topdiv';
-import Bottomdiv from './Bottomdiv';
+import Topdiv from "./Topdiv";
+import Bottomdiv from "./Bottomdiv";
 
 const Rightgrid = () => {
-    return (
-        <div className='rightdiv'>
-            <Topdiv />
-            <Bottomdiv />
-        </div>
-    )
-}
+  return (
+    <div className="rightdiv">
+      <Topdiv />
+      <Bottomdiv />
+    </div>
+  );
+};
 
 export default Rightgrid;
